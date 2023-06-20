@@ -43,7 +43,7 @@ const handleOnChange=(event)=>{
 setText(event.target.value)
 }
 
-const [text, setText]=useState("Enter a Text here!");
+const [text, setText]=useState("");
 
   return (
     <>
